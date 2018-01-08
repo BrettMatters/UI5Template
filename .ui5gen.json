@@ -1,3 +1,20 @@
 {
-    "defaultControllerParent" : "woot"
+    //Root level of source code, used to auto determine namespace of files
+    "sourceRoot": "src",
+    //Root namespace of application to be used  
+    "rootNamespace": "application",
+    //Default namespace for views and fragments
+    "defaultXmlNamespace": "sap.m",
+    //
+    "additionalXmlNamespaces": [],
+    //Controller class used as the default parent for new controllers
+    "defaultControllerParent": "",
+    //Register any default files to be included in the controller sap.ui.define statement
+    "defaultControllerDependencies": [],
+    //Register re-usable parent controllers which can be selected using optional [parentController] argument
+    "parentControllers": [],
+    //Validator class used as the default parent for new validators
+    "defaultValidatorParent": "",
+    //Register any default files to be included in the validator sap.ui.define statement
+    "defaultValidatorDependencies": []
 }
